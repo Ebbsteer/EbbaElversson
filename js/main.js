@@ -101,8 +101,8 @@
       if (body.classList.contains('mobile-nav-active')) {
         body.classList.remove('mobile-nav-active')
         let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
+        navbarToggle.classList.toggle('bx-menu')
+        navbarToggle.classList.toggle('bx-x')
       }
       scrollto(this.hash)
     }
