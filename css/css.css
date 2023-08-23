@@ -488,6 +488,11 @@ section {
     border-radius: 0;
 }
 
+.skills .certificat .skill .val {
+    float: right;
+    font-style: normal;
+}
+
 /*--- Resume ------------------------------------------*/
 
 .resume .resume-title {
