@@ -310,7 +310,7 @@ header .profile .social-links a:hover {
   
 #hero:before {
     content: "";
-    height: 120vh;
+    height: 100vh;
     background: rgba(5, 13, 24, 0.3);
     position: absolute;
     bottom: 0;

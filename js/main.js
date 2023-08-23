@@ -156,19 +156,16 @@
 
   // My javascript 
 
-  function myFunction() {
-    let element = document.body;
-    element.classList.toggle("dark");
-  }
-
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
 
-      let body = select('body')
-      if (body.classList.contains('mobile-nav-active')) {
-        body.classList.remove('mobile-nav-active')
-        let navbarToggle = select('.mobile-nav-toggle')
+      let body = select('.section-bg')
+      if (body.classList.contains('dark-light-toggle')) {
+        body.classList.remove('dark-light-toggle')
+        let navbarToggle = select('.dark-light-avtive')
+        navbarToggle.classList.toggle('bx-sun')
+        navbarToggle.classList.toggle('bx-moon')
       }
       scrollto(this.hash)
     }
