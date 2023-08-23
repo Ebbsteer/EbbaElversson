@@ -53,6 +53,32 @@ h6 {
 }
 
 
+.dark-light-toggle {
+    position: fixed;
+    right: 45px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    padding: 4px 0 0 4px;
+    font-size: 32px;
+    transition: all 0.4s;
+    outline: none !important;
+    background-color: #956fa3;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.dark-light-active{
+    background-color: #222;
+    color: #e6e6e6;
+}
 
 /*--- Back to top button -----------------------------------------*/
 

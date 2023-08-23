@@ -154,6 +154,25 @@
     })
   });
 
-  
+  // My javascript 
+
+  function myFunction() {
+    let element = document.body;
+    element.classList.toggle("dark");
+  }
+
+  on('click', '.scrollto', function(e) {
+    if (select(this.hash)) {
+      e.preventDefault()
+
+      let body = select('body')
+      if (body.classList.contains('mobile-nav-active')) {
+        body.classList.remove('mobile-nav-active')
+        let navbarToggle = select('.mobile-nav-toggle')
+      }
+      scrollto(this.hash)
+    }
+  }, true)
+
 })()
 
