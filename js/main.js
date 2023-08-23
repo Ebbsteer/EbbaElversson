@@ -136,27 +136,20 @@
   }
 
   /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+  // window.addEventListener('load', () => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     easing: 'ease-in-out',
+  //     once: true,
+  //     mirror: false
+  //   })
+  // });
 
   // My javascript 
 
-  on('click', '.dark-lighet-toggle', function(e) {
+  on('click', '.dark-light-toggle', function(e) {
     select('body').classList.toggle('dark-light-active')
     this.classList.toggle('bx-sun')
     this.classList.toggle('bx-moon')
