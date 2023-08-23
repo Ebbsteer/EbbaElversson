@@ -135,16 +135,11 @@ h6 {
 }
 
 .dark-light-active .testimonials .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
     color: #b59ec1;
 }
   
 .dark-light-active .testimonials .testimonial-item h4 {
-    font-size: 14px;
     color: #999;
-    margin: 0;
 }
   
 .dark-light-active .testimonials .testimonial-item .quote-icon-left,
@@ -158,6 +153,36 @@ h6 {
   
 .dark-light-active .testimonials .testimonial-item p::after {
     border-top: 20px solid #474349;
+}
+
+.dark-light-active .back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #956fa3;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.dark-light-active .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+  
+.dark-light-active .back-to-top:hover {
+    background: #856198;
+    color: #fff;
+}
+  
+.dark-light-active .back-to-top.active {
+   visibility: visible;
+   opacity: 1;
 }
 
 
