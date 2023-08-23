@@ -234,7 +234,8 @@ header .profile .social-links a:hover {
     top: 15px;
     z-index: 9998;
     border: 0;
-    font-size: 24px;
+    padding: 3px 0 0 4px;
+    font-size: 32px;
     transition: all 0.4s;
     outline: none !important;
     background-color: #956fa3;
