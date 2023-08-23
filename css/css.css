@@ -312,6 +312,7 @@ header .profile .social-links a:hover {
     content: "";
     background: rgba(5, 13, 24, 0.3);
     position: absolute;
+    background-size: cover;
     bottom: 0;
     top: 0;
     left: 0;
