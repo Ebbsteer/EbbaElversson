@@ -54,7 +54,7 @@ h6 {
 
 
 
-
+/* --- Toggle dark/light mode ---------------------------------------- */
 
 .dark-light-toggle {
     position: fixed;
@@ -83,10 +83,84 @@ h6 {
     color: #fff;
 }
 
-.dark-light-active{
-    background-color: #222;
-    color: #e6e6e6;
+.dark-light-active {
+    background-color: #1f1e20;
+    color: #fff;
 }
+
+.dark-light-active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dark-light-active a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+}
+
+.dark-light-active .section-bg {
+    background: rgba(51, 49, 53, 0.5);
+}
+
+.dark-light-active .section-title h2 {
+    color: #b59ec1;
+}
+
+.dark-light-active .about .content h3 {
+    color: #9d7fad;
+}
+
+.dark-light-active .about .content ul i {
+    color: #b59ec1;
+}
+
+.dark-light-active .skills .progress .skill {
+    color: #dacee0;
+}
+
+.dark-light-active .resume .resume-title {
+    color: #b59ec1;
+}
+
+.dark-light-active .resume .resume-item h4 {
+    color: #9d7fad;
+}
+
+.dark-light-active .resume .resume-item h5 {
+    background: #474349;
+}
+
+.dark-light-active .resume .resume-item::before {
+    background: #1f1e20;
+}
+
+.dark-light-active .testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #b59ec1;
+}
+  
+.dark-light-active .testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+  
+.dark-light-active .testimonials .testimonial-item .quote-icon-left,
+.dark-light-active .testimonials .testimonial-item .quote-icon-right {
+    color: #b59ec1;
+}
+
+.dark-light-active .testimonials .testimonial-item p {
+    background: #474349;
+}
+  
+.dark-light-active .testimonials .testimonial-item p::after {
+    border-top: 20px solid #474349;
+}
+
+
 
 /*--- Back to top button -----------------------------------------*/
 
@@ -377,7 +451,7 @@ section {
 }
   
 .section-bg {
-    background: #f6f3f7;
+    background: rgba(51, 49, 53, 0.05);
 }
   
 .section-title {
@@ -471,7 +545,7 @@ section {
 }
   
 .skills .progress-bar-wrap {
-    background: #dce8f8;
+    background: #ece6ef;
     height: 10px;
 }
   
