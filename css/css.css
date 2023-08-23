@@ -481,28 +481,6 @@ section {
     padding: 60px 0 0 0;
 }
 
-.skill .certificat{
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
-}
-
-.skills .certificat .skill {
-    padding: 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
-}
-
-.skills .certificat .skill .val {
-    float: right;
-    font-style: normal;
-}
-
 /*--- Resume ------------------------------------------*/
 
 .resume .resume-title {
