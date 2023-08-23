@@ -481,6 +481,13 @@ section {
     padding: 60px 0 0 0;
 }
 
+.skill .certificat{
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
 /*--- Resume ------------------------------------------*/
 
 .resume .resume-title {
