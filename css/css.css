@@ -1,27 +1,16 @@
-/* --- Style pattern ------------------------------------------------ 
+/* --- Color pattern ------------------------------------------------ 
 
-TEXT - Font
-
-        Main - Open Sans, sans-serif
-        h1-6 -Raleway, sans-serif
-
-     - Color
-
-        Main - #272829
-        Link - #272829, text-decoration: none
-         focus - #37b3ed, text-decoration: none
 
 COLORS
-                           Dark                    Main                    Light
-        Icon - #956fa3,   #694d79 #775788 #856198 #916fa3 #9d7fad #a98eb7 #b59ec1
-                            https://www.colorhexa.com/916fa3
-
-- Header + Footer
-        
-        Bg - 
+                        Dark                    Main                    Light
+    Icon - #956fa3,   #694d79 #775788 #856198 #916fa3 #9d7fad #a98eb7 #b59ec1
+                        https://www.colorhexa.com/916fa3
 
 
-/ --- General -------------------------------------------------------*/
+
+
+*/
+/* --- General -------------------------------------------------------*/
 
 body {
     font-family: "Open Sans", sans-serif;
