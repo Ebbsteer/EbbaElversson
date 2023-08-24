@@ -135,19 +135,6 @@
     });
   }
 
-  
-  /**
-   * Animation on scroll
-   */
-  // window.addEventListener('load', () => {
-  //   AOS.init({
-  //     duration: 1000,
-  //     easing: 'ease-in-out',
-  //     once: true,
-  //     mirror: false
-  //   })
-  // });
-
   // My javascript 
 
   on('click', '.dark-light-toggle', function(e) {
